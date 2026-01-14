@@ -1,0 +1,5 @@
+tensorflow>=2.10
+mtcnn
+opencv-python
+numpy
+tqdm
