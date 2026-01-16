@@ -33,14 +33,16 @@ El resultado final es un dataset listo para ser usado por R-Net.
 WIDER FACE (subset: WIDER_SELECTED)
 
 WIDER_SELECTED/
-├── train/
-│   ├── 0--Parade/
-│   ├── 1--Handshaking/
-│   └── ...
-├── annotations.txt
+- ├── train/
+- │   ├── 0--Parade/
+- │   ├── 1--Handshaking/
+- │   └── ...
+- ├── annotations.txt
+
 
 # Anexos
-checkpoints_pnet-20260114T173419Z-1-001: Contiene los checkpoints de entrenamiento de 15 epocas
-rnet_proposals-20260114T173329Z-1-001: Contiene el post procesamiento de 10 imagenes
-imagenes_analizadas: Contiene las dos imágenes que se muestran en código con las cajas candidatas.
-requirements: Contiene la lista de las dependencias de Python.
+
+- **checkpoints_pnet-20260114T173419Z-1-001**: Contiene los checkpoints del entrenamiento de 15 épocas.
+- **rnet_proposals-20260114T173329Z-1-001**: Contiene el postprocesamiento de 10 imágenes.
+- **imagenes_analizadas**: Contiene las dos imágenes mostradas en el código con las cajas candidatas.
+- **requirements**: Contiene la lista de dependencias de Python.
