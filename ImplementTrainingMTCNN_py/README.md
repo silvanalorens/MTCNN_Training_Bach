@@ -1,9 +1,9 @@
-# MTCNN_Training_Bach
+# MTCNN_Training_Bach(Entrenamiento_Paralelismo_MTCNNEne14.ipynb)
 MTCNN – P-Net Training and R-Net Dataset Generation
 Autores: Michell A. y Silvana R.
 # Descripción general
 
-Este proyecto implementa la etapa P-Net del modelo MTCNN y el pipeline completo de generación, filtrado y análisis de propuestas, con el objetivo de construir el dataset de entrenamiento para R-Net, siguiendo la metodología del paper original “Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks”.
+Este proyecto implementa la etapa P-Net del modelo MTCNN (entrenado con paralelismo 16 batchs y sin paralelismo) y el pipeline completo de generación, filtrado y análisis de propuestas, con el objetivo de construir el dataset de entrenamiento para R-Net, siguiendo la metodología del paper original “Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks”.
 
 El trabajo se centra en:
 
@@ -41,8 +41,10 @@ WIDER_SELECTED/
 
 
 # Anexos
-
+- **Entrenamiento con Paralelismo en la Arquitectura_MTCNN.pdf**: Contiene el paper de Investigación.
+- **ppt_Entrenamiento con Paralelismo en la Arquitectura_MTCNN.pdf**: Contiene la pressentacion.
 - **checkpoints_pnet-20260114T173419Z-1-001**: Contiene los checkpoints del entrenamiento de 15 épocas.
+- **Carpeta comparacion**: Contiene los checkpoints del entrenamiento con paralelismo y sin paralelismo.
 - **rnet_proposals-20260114T173329Z-1-001**: Contiene el postprocesamiento de 10 imágenes.
 - **imagenes_analizadas**: Contiene las dos imágenes mostradas en el código con las cajas candidatas.
 - **requirements**: Contiene la lista de dependencias de Python.
