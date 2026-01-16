@@ -1,5 +1,6 @@
 # MTCNN_Training_Bach
 MTCNN – P-Net Training and R-Net Dataset Generation
+Autores: Michell A. y Silvana R.
 # Descripción general
 
 Este proyecto implementa la etapa P-Net del modelo MTCNN y el pipeline completo de generación, filtrado y análisis de propuestas, con el objetivo de construir el dataset de entrenamiento para R-Net, siguiendo la metodología del paper original “Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks”.
